@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "sam"
+version = "0.1.0"
+description = ""
+authors = ["João Natividade <87316339+joaosnet@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+myhdl = "^0.11.49"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
