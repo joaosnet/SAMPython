@@ -1,4 +1,4 @@
-# Multiplication by Successive Additions - SAM
+# Multiplication by Successive Additions - SAM in Python
 ![GitHub repo size](https://img.shields.io/github/repo-size/joaosnet/SAMPython?style=for-the-badge)
 ![GitHub language count](https://img.shields.io/github/languages/count/joaosnet/SAMPython?style=for-the-badge)
 ![GitHub forks](https://img.shields.io/github/forks/joaosnet/SAMPython?style=for-the-badge)

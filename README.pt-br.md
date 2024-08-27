@@ -1,5 +1,5 @@
 
-# Multiplicação por Adições Sucessivas - SAM
+# Multiplicação por Adições Sucessivas - SAM em Python
 ![Tamanho do repositório GitHub](https://img.shields.io/github/repo-size/joaosnet/SAMPython?style=for-the-badge)
 ![Contagem de linguagens GitHub](https://img.shields.io/github/languages/count/joaosnet/SAMPython?style=for-the-badge)
 ![Forks do GitHub](https://img.shields.io/github/forks/joaosnet/SAMPython?style=for-the-badge)
