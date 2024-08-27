@@ -7,8 +7,7 @@
 [![pt-br](https://img.shields.io/badge/lang-pt--br-green.svg)](https://github.com/joaosnet/SAMPython/blob/master/README.pt-br.md)
 
 ## Skills Developed
-<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" /> 
-<img src="https://img.shields.io/badge/VHDL-00599C?style=for-the-badge&logo=vhdl&logoColor=white"/> <img src="https://img.shields.io/badge/ModelSim-00599C?style=for-the-badge&logo=ModelSim&logoColor=white"/> <img src="https://img.shields.io/badge/Quartus-00599C?style=for-the-badge&logo=Quartus&logoColor=white"/> <img src="https://img.shields.io/badge/Poetry-%233B82F6.svg?style=for-the-badge&logo=poetry&logoColor=0B3D8D" /> <img src="https://img.shields.io/badge/MyHDL-00599C?style=for-the-badge&logo=Quartus&logoColor=white"/>
+<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" /> <img src="https://img.shields.io/badge/VHDL-00599C?style=for-the-badge&logo=vhdl&logoColor=white"/> <img src="https://img.shields.io/badge/ModelSim-00599C?style=for-the-badge&logo=ModelSim&logoColor=white"/> <img src="https://img.shields.io/badge/Quartus-00599C?style=for-the-badge&logo=Quartus&logoColor=white"/> <img src="https://img.shields.io/badge/Poetry-%233B82F6.svg?style=for-the-badge&logo=poetry&logoColor=0B3D8D" /> <img src="https://img.shields.io/badge/MyHDL-00599C?style=for-the-badge&logo=Quartus&logoColor=white"/>
 
 ## Introduction
 
