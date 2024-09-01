@@ -23,9 +23,11 @@ def testbench():
         yield ck.negedge
         Reset.next = 0
         yield ck.negedge
+        inicio.next = 1
         entA.next = 4
         entB.next = 3
-        inicio.next = 1
+        yield ck.negedge
+        inicio.next = 0
         yield delay(200)  # noqa: F405
         raise StopSimulation  # noqa: F405
 
@@ -35,7 +37,7 @@ def testbench():
         print("-------------------------")
         while True:
             yield ck.posedge
-            print(f"{int(ck)}  {int(inicio)}  {int(entA)}   {int(entB)}   {int(mult)}   {int(pronto)}")
+            print(f"{int(ck)}    {int(inicio)}     {int(entA)}    {int(entB)}    {int(mult)}   {int(pronto)}")
 
     return sd_inst, clkgen, stimulus, monitor
 
