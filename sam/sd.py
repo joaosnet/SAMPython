@@ -5,7 +5,7 @@ states = enum("IDLE", "LOAD", "CHECK_B", "ADD", "SUB", "DONE")  # noqa: F405
 
 
 @block  # noqa: F405
-def sd(Reset, ck, entA, entB, mult, pronto):
+def sd(Reset, ck, inicio, entA, entB, mult, pronto):
     # Sinais internos
     state = Signal(states.IDLE)  # noqa: F405
     A = Signal(intbv(0)[4:])  # noqa: F405
@@ -18,7 +18,7 @@ def sd(Reset, ck, entA, entB, mult, pronto):
         # print(f"State: {state}, A: {A}, B: {B}, P: {P}, pronto: {pronto}, mult: {mult}")
         if state == states.IDLE:
             pronto.next = 0
-            if Reset == 0:
+            if Reset == 0 and inicio == 1:
                 state.next = states.LOAD
         elif state == states.LOAD:
             A.next = entA
@@ -26,7 +26,7 @@ def sd(Reset, ck, entA, entB, mult, pronto):
             P.next = 0
             state.next = states.CHECK_B
         elif state == states.CHECK_B:
-            if B != 0:
+            if B != 0 and A != 0:
                 state.next = states.ADD
             else:
                 state.next = states.DONE
